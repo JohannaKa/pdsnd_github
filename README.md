@@ -31,9 +31,9 @@ This program processes different .csv files containing the bikeshare data of dif
 
 ### Files used
 To run this program, you need the following files:
-- _chicago.csv_ (click [here](https://www.divvybikes.com/system-data))
-- _new_york_city.csv_ (click [here]https://www.citibikenyc.com/system-data)
-- _washington.csv_ (click [here]https://www.capitalbikeshare.com/system-data)
+- [_chicago.csv_](https://www.divvybikes.com/system-data)
+- [_new_york_city.csv_](https://www.citibikenyc.com/system-data)
+- [_washington.csv_](https://www.capitalbikeshare.com/system-data)
 
 
 ### Credits
