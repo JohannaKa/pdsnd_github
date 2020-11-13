@@ -17,12 +17,17 @@ This program processes different .csv files containing the bikeshare data of dif
    -Some user statistics (user type, genders, birth years)
 4. Finally the user can **choose to see some data**...
 
+### Software to be required
+* You should have _Python 3_, _NumPy_, and _pandas_ installed using **Anaconda**
+* A **text editor**, like _Sublime_ or _Atom_.
+* A **terminal application** (Terminal on Mac and Linux or Cygwin on Windows)
 
 ### Files used
 To run this program, you need the following files:
 - _chicago.csv_
 - _new_york_city.csv_
 - _washington.csv_
+
 
 ### Credits
 Credits go to the mentor Clinton A. from Udacity who helped me out correcting my error messages (Check it out [here](https://knowledge.udacity.com/questions/367104)).
