@@ -1,23 +1,21 @@
-### Date created
-**13th November 2020**
-
-
 # Bikeshare Project
 
+### Date created
+13th November 2020
 
 ### Description
 This program processes different .csv files containing the bikeshare data of different cities and creates a summary statistics:
 
-1. First the user has to select the .csv file of an city
-2. Then the user needs to select the filters:
+1. First the user has to **select the .csv file of an city**
+2. Then the user needs to **select filters**:
    -Month, day or no filters
    -Which month or day
-3. The summary statistics is calculated:
+3. The summary **statistics is calculated**:
    -Most frequent travel times
    -Most frequent stations
    -Travel durations (total, average)
    -Some user statistics (user type, genders, birth years)
-4. Finally the user can choose to see some data...
+4. Finally the user can **choose to see some data**...
 
 
 ### Files used
@@ -27,4 +25,4 @@ To run this program, you need the following files:
 - _washington.csv_
 
 ### Credits
-Credit goes to the mentor Clinton A. from Udacity who helped me out correcting my error messages (Check it out [here](https://knowledge.udacity.com/questions/367104)).
+Credits go to the mentor Clinton A. from Udacity who helped me out correcting my error messages (Check it out [here](https://knowledge.udacity.com/questions/367104)).
