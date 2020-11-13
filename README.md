@@ -18,9 +18,16 @@ This program processes different .csv files containing the bikeshare data of dif
 4. Finally the user can **choose to see some data**...
 
 ### Software to be required
-* You should have _Python 3_, _NumPy_, and _pandas_ installed using **Anaconda**
-* A **text editor**, like _Sublime_ or _Atom_.
-* A **terminal application** (Terminal on Mac and Linux or Cygwin on Windows)
+1. You should have _Python 3_, _NumPy_, and _pandas_ installed using **Anaconda**
+2. A **text editor**, like _Sublime_ or _Atom_.
+3. A **terminal application** (Terminal on Mac and Linux or Cygwin on Windows)
+
+### Installations Instructions
+1.**Anaconda**: click [here](https://docs.anaconda.com/anaconda/navigator/tutorials/pandas/)
+2.**Atom**: click [here](https://atom.io/)
+3.**Terminal Application**:
+  -For Windows, get a terminal application
+  -For Mac, use provided terminal.
 
 ### Files used
 To run this program, you need the following files:
