@@ -38,3 +38,13 @@ To run this program, you need the following files:
 
 ### Credits
 Credits go to the mentor Clinton A. from Udacity who helped me out correcting my error messages (Check it out [here](https://knowledge.udacity.com/questions/367104)).
+
+###Known Bugs
+Some data wrangling has been done by Udacity.
+If you use the links to the raw data files, you need to perform some data wrangling to get the following table format :
+
+Start Time | End Time | Trip Duration | Start Station | End Station | User Type | Gender | Birthdate
+-----------|----------|---------------|---------------|-------------|-----------|--------|----------
+   ...     |   ...    |     ...       |      ...      |     ...     |    ...    |   ...  |   ...
+
+Else this program will run into an error.
