@@ -35,6 +35,9 @@ To run this program, you need the following files:
 - [_new_york_city.csv_](https://www.citibikenyc.com/system-data)
 - [_washington.csv_](https://www.capitalbikeshare.com/system-data)
 
+### Copyright
+Bikeshare Project is released under [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
+
 
 ### Credits
 Credits go to the mentor Clinton A. from Udacity who helped me out correcting my error messages (Check it out [here](https://knowledge.udacity.com/questions/367104)).
