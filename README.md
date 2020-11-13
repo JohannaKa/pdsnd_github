@@ -27,4 +27,4 @@ To run this program, you need the following files:
 - _washington.csv_
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credit goes to the mentor Clinton A. from Udacity who helped me out correcting my error messages (Check it out [here](https://knowledge.udacity.com/questions/367104)).
