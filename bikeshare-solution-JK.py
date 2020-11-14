@@ -258,6 +258,12 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
+        print_df = input('Would you like to see some data rows?').lower()
+        if print_df =='yes':
+            number_rows = int(input('How many rows would you like to see?'))
+            pd.options.display.max_columns = None
+            print(df.head(number_rows))
+
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
