@@ -57,6 +57,7 @@ def get_filters():
                 try:
                     day = int(input('Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?Please type your day as an integer (e.g. Monday = 0)').lower())
                     if day in days:
+                        print_day = calendar.day_name[day]
                         print("Okay, you want to filter after", "{}".format(day).capitalize(),'.')
                         break
 
