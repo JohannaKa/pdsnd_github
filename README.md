@@ -42,7 +42,7 @@ Bikeshare Project is released under [GNU GPLv3](https://choosealicense.com/licen
 ### Credits
 Credits go to the mentor Clinton A. from Udacity who helped me out correcting my error messages (Check it out [here](https://knowledge.udacity.com/questions/367104)).
 
-###Known Bugs
+### Known Bugs
 Some data wrangling has been done by Udacity.
 If you use the links to the raw data files, you need to perform some data wrangling to get the following table format :
 
@@ -52,5 +52,5 @@ Start Time | End Time | Trip Duration | Start Station | End Station | User Type 
 
 Else this program will run into an error.
 
-###Version
+### Version
 Version I released on 14th November 2020
