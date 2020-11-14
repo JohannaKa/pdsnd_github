@@ -51,3 +51,6 @@ Start Time | End Time | Trip Duration | Start Station | End Station | User Type 
    ...     |   ...    |     ...       |      ...      |     ...     |    ...    |   ...  |   ...
 
 Else this program will run into an error.
+
+###Version
+Version I released on 14th November 2020
