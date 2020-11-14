@@ -57,6 +57,7 @@ def get_filters():
                 try:
                     day = int(input('Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?Please type your day as an integer (e.g. Monday = 0)').lower())
                     if day in days:
+                        print_day = calendar.day_name[day]
                         print("Okay, you want to filter after", "{}".format(day).capitalize(),'.')
                         break
 
@@ -167,26 +168,26 @@ def station_stats(df):
     # display most commonly used start station
     common_start_station = df['Start Station'].mode()[0]
 
-    bol_common_start_sta = df[df['Start Station'] == common_start_station]
-    count_start_station = bol_common_start_sta.count()[0]
+    bol_start_station = df[df['Start Station'] == common_start_station]
+    count_start_station = bol_start_station.count()[0]
     print('Most common start station:', common_start_station, 'Count:', count_start_station)
 
     # display most commonly used end station
     common_end_station = df['End Station'].mode()[0]
 
-    bol_common_end_sta = df[df['End Station'] == common_end_station]
-    count_end_station = bol_common_end_sta.count()[0]
+    bol_end_station = df[df['End Station'] == common_end_station]
+    count_end_station = bol_end_station.count()[0]
     print('Most common end station:', common_end_station, 'Count:', count_end_station)
 
     # display most frequent combination of start station and end station trip
     df['Start-End Station'] = df['Start Station'] + ' , ' + df['End Station']
 
-    common_start_end_station = df['Start-End Station'].mode()[0]
+    common_startend_station = df['Start-End Station'].mode()[0]
 
-    bol_start_end_sta = df[df['Start-End Station'] == common_start_end_station]
-    count_start_end_sta = bol_start_end_sta.count()[0]
+    bol_startend_station = df[df['Start-End Station'] == common_startend_station]
+    count_startend_station = bol_startend_station.count()[0]
 
-    print('Most common start and end station combination:', common_start_end_station, 'Count:', count_start_end_sta)
+    print('Most common start and end station combination:', common_startend_station, 'Count:', count_startend_station)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -256,6 +257,12 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
+
+        print_df = input('Would you like to see some data rows?').lower()
+        if print_df =='yes':
+            number_rows = int(input('How many rows would you like to see?'))
+            pd.options.display.max_columns = None
+            print(df.head(number_rows))
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
